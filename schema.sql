@@ -10,3 +10,37 @@ CREATE TABLE animals
     species character varying(100),
     PRIMARY KEY (id)
 );
+
+CREATE TABLE owners 
+( 
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY, 
+    full_name character varying(100), 
+    age integer
+);
+
+
+CREATE TABLE species 
+( 
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    name character varying(100),
+);
+
+ALTER TABLE animals ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY;
+
+ALTER TABLE animals DROP COLUMN species;
+
+ALTER TABLE animals ADD species_id INT;
+
+
+ALTER TABLE animals ALTER COLUMN species_id TYPE character varying(100);
+
+
+ALTER TABLE animals ADD FOREIGN KEY (species_id) REFERENCES species (id);
+
+ALTER TABLE animals ADD owner_id INT;
+
+ALTER TABLE animals ADD FOREIGN KEY (owner_id) REFERENCES owners (id);
+
+
+
+
