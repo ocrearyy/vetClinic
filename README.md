@@ -2,6 +2,12 @@
 
 > This Repository is the SQL Schema representation of a vet clinic database
 
+## Screenshot of Database Graph
+
+![Diagrama ER de base de datos (pata de gallo)](https://user-images.githubusercontent.com/40554384/178539963-ae788927-cc8a-49f1-a746-330bf4eb092e.png)
+
+
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate the vet_clinic database:
@@ -11,6 +17,12 @@ This repository includes files with plain SQL that can be used to recreate the v
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 ## Authors
+
+👤 **Arturo**
+
+- GitHub: [@Artbsc1992](https://github.com/Artbsc1992)
+- Twitter: [@Arturo_D_Rock](https://twitter.com/Arturo_D_Rock)
+- LinkedIn: [Arturo Hermida](https://www.linkedin.com/in/arturo-hermida29/)
 
 👤 **Oshane**
 
