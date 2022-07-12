@@ -4,6 +4,7 @@
 
 ## Screenshot of Database Graph
 
+![Diagrama ER de base de datos (pata de gallo)](https://user-images.githubusercontent.com/40554384/178539963-ae788927-cc8a-49f1-a746-330bf4eb092e.png)
 
 
 
